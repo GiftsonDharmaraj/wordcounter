@@ -2,12 +2,11 @@
 <h1 style= "color:rebeccapurple" >
     <b><em> word counter</em></b>
     </h1>
-<form method="" action="counter"> 
-    <div>     
+<form method="" action="counter">  
+    {% csrf_token %}
     <textarea name="text" rows="25" cols="100" ></textarea>
         <br>
     <input type="submit"/>
-</div>
 </form>
 
 
