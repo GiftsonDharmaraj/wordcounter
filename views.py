@@ -6,6 +6,6 @@ from django.http import HttpResponse
 def index(request):
     return render(request,'templates.html')
 def counter(request):
-    texter=request.GET['text']
+    texter=request.POST['text']
     amount_of_text=len(texter.split())
     return render(request,'counter.html',{'amount':amount_of_text})
