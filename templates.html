@@ -1,13 +1,19 @@
-
-<h1 style= "color:rebeccapurple" >
-    <b><em> word counter</em></b>
+<html>
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'addup.css' %}">
+</head>
+<body >
+<h1>
+    <b> word counter</b>
     </h1>
-<form method="" action="counter">  
-    {% csrf_token %}
+<form method="" action="counter"> 
     <textarea name="text" rows="25" cols="100" ></textarea>
-        <br>
-    <input type="submit"/>
+    <br>
+    <input type ="submit"/>
+    <br>
 </form>
-
+</body>
+</html>
 
     
