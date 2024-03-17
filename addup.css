@@ -1,6 +1,18 @@
-h1{
-    color: rebeccapurple;
+.abcd{
+    color: rgb(83, 153, 51);
     font-style: oblique;
     text-align: justify;
-
+    font-size: 45px;
+}
+body{
+    background-color: purple;
+}
+h1:hover{
+    color:seagreen;
+}
+#gsggs{
+    background-color: chartreuse;
+}
+.bcd{
+    text-align: center;
 }
